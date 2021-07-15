@@ -18,10 +18,12 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: 500;
+    color: var(--font-color);
 }
 
 body{
     font-family: var(--main-font);
+    filter: sepia(60%)
 }
 
 /* global uses end */
@@ -31,6 +33,7 @@ body{
 .background{
     background: url(img/wood.jpg) fixed;
     height: 100vh;
+    overflow: hidden;
 }
 
 /* background end */
@@ -39,10 +42,11 @@ body{
 
 .parchment{
     background: url(img/parchment.jpeg) fixed;
-    height: 70vh;
+    height: 85vh;
     width: 30vw;
     position: absolute;
-    transform: translate(120%, 20%);
+    transform: translate(120%, 8%);
+    padding: 20px;
 }
 
 /* parchment end */
@@ -51,20 +55,265 @@ body{
 
 header{
     text-align: center;
+    padding: 20px;
 }
 
 .title{
     font-family: var(--header-font);
-    font-size: 2.75em;
-    
+    font-size: 4.75em;
+    padding-bottom: 20px;
+}
+
+.sub-title{
+    font-size: 1.5em;
 }
 
 /* header end */
 
 .img{
     text-align: center;
+    margin: 10px;
+    border: 2px solid var(--font-color);
 }
 
 /* footer start */
 
+footer{
+    text-align: center;
+}
+
+.perp-name{
+    font-size: 2.75em;
+}
+
+.reward-amount{
+    font-size: 2.75em;
+    text-decoration: underline;
+}
 /* footer end */
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+    /* parchment start */
+.parchment{
+    background: url(img/parchment.jpeg) fixed;
+    height: 80vh;
+    width: 80vw;
+    position: absolute;
+    transform: translate(12%, 10%);
+    padding: 20px;
+}
+/* parchment end */
+
+/* header start */
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+.title{
+    font-family: var(--header-font);
+    font-size: 5.75em;
+    padding-bottom: 20px;
+}
+
+.sub-title{
+    font-size: 2.5em;
+}
+
+/* header end */
+
+.img img{
+    height: 600px;
+}
+
+/* footer start */
+
+footer{
+    text-align: center;
+}
+
+.perp-name{
+    font-size: 3.75em;
+}
+
+.reward-amount{
+    font-size: 3.75em;
+    text-decoration: underline;
+}
+/* footer end */
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+    /* parchment start */
+.parchment{
+    background: url(img/parchment.jpeg) fixed;
+    height: 80vh;
+    width: 80vw;
+    position: absolute;
+    transform: translate(12%, 10%);
+    padding: 20px;
+}
+/* parchment end */
+
+/* header start */
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+.title{
+    font-family: var(--header-font);
+    font-size: 5.75em;
+    padding-bottom: 20px;
+}
+
+.sub-title{
+    font-size: 2.5em;
+}
+
+/* header end */
+
+.img img{
+    height: 300px;
+}
+
+/* footer start */
+
+footer{
+    text-align: center;
+}
+
+.perp-name{
+    font-size: 3.75em;
+}
+
+.reward-amount{
+    font-size: 3.75em;
+    text-decoration: underline;
+}
+/* footer end */
+}
+
+
+@media only screen and (max-width: 560px) {
+
+    /* background start */
+    
+    .background{
+        background: url(img/wood.jpg);
+        width: 100%;
+    }
+    
+    /* background end */
+    
+    
+        
+        /* parchment start */
+        
+        .parchment{
+            height: 85vh;
+            width: 80vw;
+            transform: translate(12%, 10%);
+        }
+        /* parchment end */
+    
+        /* header start */
+    
+        .title{
+            font-family: var(--header-font);
+            font-size: 3.5em;
+            padding-bottom: 10px;
+        }
+
+        .sub-title{
+            font-size: 1.5em;
+        }
+    /* header end */
+    
+    .img img{
+        height: 275px;
+    }
+    
+    /* footer start */
+    
+    footer{
+        text-align: center;
+    }
+    
+    .perp-name{
+        font-size: 1.75em;
+    }
+    
+    .reward-amount{
+        font-size: 2.75em;
+        text-decoration: underline;
+    }
+    /* /* footer end * */
+    
+    }
+
+    @media only screen and (max-width: 360px) {
+
+        /* background start */
+        
+        .background{
+            background: url(img/wood.jpg);
+            width: 100%;
+        }
+        
+        /* background end */
+        
+        
+            
+            /* parchment start */
+            
+            .parchment{
+                height: 85vh;
+                width: 80vw;
+                transform: translate(12%, 10%);
+            }
+            /* parchment end */
+        
+            /* header start */
+        
+            .title{
+                font-family: var(--header-font);
+                font-size: 2.5em;
+                padding-bottom: 10px;
+            }
+    
+            .sub-title{
+                font-size: 1.0em;
+            }
+        /* header end */
+        
+        .img img{
+            height: 205px;
+        }
+        
+        /* footer start */
+        
+        footer{
+            text-align: center;
+        }
+        
+        .perp-name{
+            font-size: 1.75em;
+        }
+        
+        .reward-amount{
+            font-size: 2.75em;
+            text-decoration: underline;
+        }
+        /* /* footer end * */
+        
+        }
