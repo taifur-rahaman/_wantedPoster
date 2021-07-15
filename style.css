@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Ultra&display=swap');
+
+
+/* variables start */
+
+:root{
+    --main-font : 'Ultra', serif;
+    --header-font : 'Ewert', cursive;
+    --font-color: #291200;
+}
+
+/* variables end */
+
+/* global uses start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+body{
+    font-family: var(--main-font);
+}
+
+/* global uses end */
+
+/* background start */
+
+.background{
+    background: url(img/wood.jpg) fixed;
+    height: 100vh;
+}
+
+/* background end */
+
+/* parchment start */
+
+.parchment{
+    background: url(img/parchment.jpeg) fixed;
+    height: 70vh;
+    width: 30vw;
+    position: absolute;
+    transform: translate(120%, 20%);
+}
+
+/* parchment end */
+
+/* header start */
+
+header{
+    text-align: center;
+}
+
+.title{
+    font-family: var(--header-font);
+    font-size: 2.75em;
+    
+}
+
+/* header end */
+
+.img{
+    text-align: center;
+}
+
+/* footer start */
+
+/* footer end */
