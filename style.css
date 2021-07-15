@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Ultra&display=swap');
+
+@import url('https://fonts.maateen.me/bangla/font.css');
 
 
 /* variables start */
 
 :root{
-    --main-font : 'Ultra', serif;
-    --header-font : 'Ewert', cursive;
+    --main-font : 'Bangla', Arial, sans-serif;
     --font-color: #291200;
 }
 
@@ -59,13 +59,13 @@ header{
 }
 
 .title{
-    font-family: var(--header-font);
+    font-family: var(--main-font);
     font-size: 4.75em;
-    padding-bottom: 20px;
+    font-weight: 700;
 }
 
 .sub-title{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 /* header end */
@@ -82,13 +82,19 @@ footer{
     text-align: center;
 }
 
+footer p{
+    font-size: 1.5em
+}
+
 .perp-name{
     font-size: 2.75em;
+    font-weight: 700;
 }
 
 .reward-amount{
     font-size: 2.75em;
     text-decoration: underline;
+    font-weight: 700;
 }
 /* footer end */
 
