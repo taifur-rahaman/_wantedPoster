@@ -261,6 +261,63 @@ footer{
     
     }
 
+    @media only screen and (max-width: 375px) {
+
+        /* background start */
+        
+        .background{
+            background: url(img/wood.jpg);
+            width: 100%;
+        }
+        
+        /* background end */
+        
+        
+            
+            /* parchment start */
+            
+            .parchment{
+                height: 70vh;
+                width: 80vw;
+                transform: translate(12%, 20%);
+            }
+            /* parchment end */
+        
+            /* header start */
+        
+            .title{
+                font-family: var(--header-font);
+                font-size: 2.5em;
+                padding-bottom: 10px;
+            }
+    
+            .sub-title{
+                font-size: 1.0em;
+            }
+        /* header end */
+        
+        .img img{
+            height: 205px;
+        }
+        
+        /* footer start */
+        
+        footer{
+            text-align: center;
+        }
+        
+        .perp-name{
+            font-size: 1.75em;
+        }
+        
+        .reward-amount{
+            font-size: 2.75em;
+            text-decoration: underline;
+        }
+        /* /* footer end * */
+        
+        }
+
     @media only screen and (max-width: 360px) {
 
         /* background start */
