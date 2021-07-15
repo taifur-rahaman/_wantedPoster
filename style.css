@@ -42,10 +42,10 @@ body{
 
 .parchment{
     background: url(img/parchment.jpeg) fixed;
-    height: 85vh;
+    height: 90vh;
     width: 30vw;
     position: absolute;
-    transform: translate(120%, 8%);
+    transform: translate(120%, 5%);
     padding: 20px;
 }
 
